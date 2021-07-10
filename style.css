@@ -1,0 +1,68 @@
+ body{
+    margin: 0%;
+    background-size: 800px ;
+    background-image:url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zyra_0.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1650px;
+    height: 100vh;
+}  
+p{
+    color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+fieldset{
+    size: 200vh;
+}
+main{
+    text-align: center;  
+    color: whitesmoke;
+    size: 300vh;
+    animation: mainAnimation 1s;
+}
+.container{
+    padding: 0% 61% 10% 0% ;
+    border-width: 1000px;
+    margin-right: 50vh;
+    
+    
+}
+img{
+    border-radius: 15%;
+ 
+}
+img:hover{
+    filter: saturate(2);
+    transform: scale(1);
+    
+}
+input[type="email"], input[type="text"], input[type="senha"]{
+    opacity: 40%;
+    background-color:violet;
+    transition: background-color 0.5s ease;
+   
+}
+input:hover{
+    background-color: rgb(187, 56, 56);
+}
+fieldset:last-of-type{
+    margin-bottom: 10px;
+}
+@keyframes mainAnimation{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+button{
+    background-color: violet;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: rgb(187, 56, 56);
+}
+
